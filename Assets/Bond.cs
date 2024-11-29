@@ -38,7 +38,7 @@ public class Bond : MonoBehaviour
         {
             isActive = true;
             //gameObject.SetActive(true); // Bağı tekrar aktif yap
-            //TESTTTT
+            
             animator.SetBool("Burn",false);
             isTorchBurning = false;
             Debug.Log($"{gameObject.name} yeniden aktif oldu!");
